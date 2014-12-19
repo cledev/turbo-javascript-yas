@@ -1,7 +1,5 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: iife
-# key: iife
+# name: function apply
+# key: fa
 # --
-(function (${1:arguments}) {
-          $0
-})($2)
+${1:fn}.apply(${2:this}${3:, ${4:array}})

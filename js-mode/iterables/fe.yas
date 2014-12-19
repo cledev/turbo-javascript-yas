@@ -3,5 +3,5 @@ t# -*- mode: snippet; require-final-newline: nil -*-
 # key: fe
 # --
 ${1:iterable}.forEach(function(${2:item}) {
-                               $0
+	$0
 })

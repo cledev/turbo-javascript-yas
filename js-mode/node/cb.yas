@@ -3,5 +3,5 @@
 # key: cb
 # --
 function (err${1:, ${2:value}}) {
-         $0
+	$0
 }

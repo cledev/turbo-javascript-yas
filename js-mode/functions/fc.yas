@@ -2,4 +2,4 @@
 # name: function call
 # key: fc
 # --
-${1:fn}.call(${2:this}, ${3:arguments})
+${1:fn}.call(${2:this}${3:, ${4:arguments}})

@@ -2,6 +2,6 @@ t# -*- mode: snippet; require-final-newline: nil -*-
 # name: filter
 # key: filter
 # --
-${1:iterable}.filter(function (${2:item}) {
-                              $0
+${1:iterable}.filter(function(${2:item}) {
+	$0
 })

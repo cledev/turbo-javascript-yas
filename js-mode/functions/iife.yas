@@ -2,6 +2,6 @@
 # name: iife
 # key: iife
 # --
-(function (${1:arguments}) {
-          $0
+(function(${1:arguments}) {
+	$0
 })($2)

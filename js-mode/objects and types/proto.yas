@@ -1,5 +1,7 @@
 t# -*- mode: snippet; require-final-newline: nil -*-
-# name: instanceof
-# key: iof
+# name: proto
+# key: proto
 # -
-${1:source} instanceof ${2:Object}
+${1:Class}.prototype.${2:methodName} = function (${3:arguments}) {
+  ${0}
+}
