@@ -1,0 +1,7 @@
+t# -*- mode: snippet; require-final-newline: nil -*-
+# name: forEach
+# key: fe
+# --
+${1:iterable}.forEach(function(${2:item}) {
+                               $0
+})

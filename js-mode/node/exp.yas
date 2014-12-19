@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: export member
+# key: exp
+# --
+exports.${1:name} = ${2:value}

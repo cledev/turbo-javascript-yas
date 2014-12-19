@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: console.warn
+# key: cw
+# --
+console.warn($0)

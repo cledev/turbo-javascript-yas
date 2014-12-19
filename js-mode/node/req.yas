@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: require
+# key: req
+# --
+${1:var ${2:variable}} = require('${3:module}')

@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: setInterval
+# key: si
+# --
+${1:var ${2:clear-var} = }setInterval(function() {
+  $0
+}, ${3:delay-ms})

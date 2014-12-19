@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Node-style callback
+# key: cb
+# --
+function (err${1:, ${2:value}}) {
+         $0
+}

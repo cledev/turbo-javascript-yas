@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: module.exports
+# key: mexp
+# --
+module.exports = ${1:name}

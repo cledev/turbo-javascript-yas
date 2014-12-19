@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: on event
+# key: on
+# --
+${1:${2:emitter}.}on('${3:event}', function(${4:arguments}) {
+                                   $0
+})

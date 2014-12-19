@@ -1,0 +1,7 @@
+t# -*- mode: snippet; require-final-newline: nil -*-
+# name: map
+# key: map
+# --
+${1:iterable}.map(function (${2:item}) {
+                               $0
+})

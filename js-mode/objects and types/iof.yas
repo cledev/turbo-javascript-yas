@@ -1,0 +1,5 @@
+t# -*- mode: snippet; require-final-newline: nil -*-
+# name: instanceof
+# key: iof
+# --
+${1:source} instanceof ${2:Object}

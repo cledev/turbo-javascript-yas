@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: function bind
+# key: fb
+# --
+${1:fn}.bind(${2:this}, ${3:arguments})

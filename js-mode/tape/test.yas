@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: test
+# key: test
+# --
+test('${1:name}', function(t) {
+  ${2:t.plan(${3:number})}
+  $0
+})

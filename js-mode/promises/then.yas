@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: then
+# key: then
+# --
+then(function (${1:value}) {
+               $0
+})

@@ -1,0 +1,5 @@
+t# -*- mode: snippet; require-final-newline: nil -*-
+# name: typeof
+# key: tof
+# --
+typeof ${1:source} === '${2:undefined}'

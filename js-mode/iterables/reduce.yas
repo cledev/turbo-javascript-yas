@@ -1,0 +1,7 @@
+t# -*- mode: snippet; require-final-newline: nil -*-
+# name: reduce
+# key: reduce
+# --
+${1:iterable}.reduce(function (${2:previous}, ${3:current}) {
+                              $0
+}${4:, initial})

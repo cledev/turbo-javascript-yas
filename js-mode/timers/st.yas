@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: setTimeout
+# key: st
+# --
+${1:var ${2:clear-var} = }setTimeout(function() {
+  $0
+}, ${3:delay-ms})
